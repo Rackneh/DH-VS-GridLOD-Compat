@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ExampleMod",
+  "name": "Example Mod",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["allaryin", "smbarbour"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
