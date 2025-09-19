@@ -38,6 +38,11 @@ subprojects {
             name = "ParchmentMC"
             url = "https://maven.parchmentmc.org"
         }
+        maven {
+            name = "Modrinth"
+            url = "https://api.modrinth.com/maven"
+        }
+
     }
 
     dependencies {
@@ -50,6 +55,7 @@ subprojects {
 
         implementation("org.joml:joml:1.10.4") { transitive = false }
         implementation("org.joml:joml-primitives:1.10.0") { transitive = false }
+        implementation "maven.modrinth:distanthorizons:2.3.4-b-1.20.1"
     }
 
     checkstyle {
